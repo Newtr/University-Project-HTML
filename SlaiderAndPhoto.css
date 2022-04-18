@@ -1,0 +1,29 @@
+#SlaiderAndPhoto div{
+    display: inline-block;
+}
+#SlaiderAndPhoto{
+    height: 300px;
+}
+#Slaider{
+    width: 897px;
+    height: 300px;
+    margin-right: 15px;
+}
+#Photo{
+    width: 580px;
+    height: 350px;
+}
+#SlaiderObject{
+    width: 897px;
+    height: 300px;
+    background-color: aliceblue;
+}
+#PhotoObject{
+    width: 580px;
+    height: 300px;
+}
+#PhotoObject img{
+    width: 580px;
+    height: 300px;
+    border-radius: 15px;
+}
