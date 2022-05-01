@@ -22,23 +22,21 @@
     height: 220px;
     float: left;
 }
-#KatalogButton{
+#KatalogButton nav{
     height: 220px;
 }
-#KatalogButton input{
+#KatalogButton nav {
     margin-top: 65px;
     width: 220px;
     height: 100px;
     border-radius: 20px;
     background-color: red;
-    color: white;
-    font-size: 35px;
-    font-weight: bold;
     border: none;
 }
-#KatalogButton input:hover{
-    color:black;
-    border: 3px solid black;
+#KatalogButton nav li>a{
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
 }
 #Search{
     margin-top: 15px;
@@ -65,5 +63,64 @@
     padding-left: 15px;
 }
 
-
-
+.nav ul {
+/*  
+    background-color: red;
+    color: white;
+    font-size: 35px;
+    font-weight: bold; */
+    width: 220px;
+    height: 100px;
+    border: none;
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    text-align: center; 
+}
+.nav>ul>li:hover{
+    color:black;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.nav>ul>li {
+    float:left;
+    width: 215px;
+    height: 95px;
+    position: relative;
+    border-radius: 20px;
+    text-align: center; 
+    line-height: 2.5;
+}
+.nav ul ul a {
+    display: block;
+    padding: 0px;
+    text-decoration: none;
+}
+.nav li .second {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left:0;
+        
+}
+.nav li:hover .second{
+    display: block;
+}
+.nav li li {
+    width: 220px;
+}
+.second li a {
+    margin-top: 5px;
+    background-color: red;
+    border-radius: 15px;
+}
+nav a{
+    color: white;
+}
+nav>li{
+    text-align: center;
+    line-height: 50%;
+}
+.second li a:hover{
+    color: black;
+}
