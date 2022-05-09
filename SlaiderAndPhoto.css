@@ -4,19 +4,25 @@
 #SlaiderAndPhoto{
     height: 300px;
 }
-#Slaider{
-    width: 897px;
-    height: 300px;
-    margin-right: 15px;
-}
 #Photo{
     width: 580px;
     height: 350px;
 }
-#SlaiderObject{
+#slid{
     width: 897px;
     height: 300px;
-    background-color: aliceblue;
+    position: relative;
+    border-radius: 15px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slid-single{
+    width: 897px;
+    height: 300px;
+    position: absolute;
+    transition: all ease 1s;
+    left: 0;
+    top: 0;
 }
 #PhotoObject{
     width: 580px;
